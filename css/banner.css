@@ -1,0 +1,71 @@
+@charset "UTF-8";
+/* CSS Document */
+@media screen and (min-width: 1025px) {
+#banner #banner_img {
+	width: 100%;
+	height: auto;
+	border: 0;
+	display: inline-block;
+	z-index: 0;
+}
+
+#banner a {
+	border: 0;
+	padding: 5px;
+	text-decoration: none;
+	color: white;
+}
+
+	#banner a:hover {
+		border: 0;
+		color: #96bf31;
+	}
+	
+	#banner a.hover {
+		color: #96bf31;
+	}
+	
+#banner #botoes {
+	width: 100%;
+	text-align: center;
+	position: absolute;
+	margin-top: -200px;
+}
+}
+
+@media screen and (max-width: 1024px) {
+
+#banner #banner_img {
+	width: 100%;
+	height: auto;
+	border: 0;
+	overflow: hidden;
+}
+
+#banner a {
+	border: 0;
+	padding: 5px;
+	text-decoration: none;
+	color: white;
+	overflow: hidden;	
+}
+
+	#banner a:hover {
+		border: 0;
+		color: #96bf31;
+		overflow: hidden;
+	}
+	
+	#banner a.hover {
+		color: #96bf31;
+		overflow: hidden; 
+	}
+	
+#banner #botoes {
+	width: 100%;
+	text-align: center;
+	display: block;
+	margin-bottom: 50px;
+	overflow: hidden;	
+}
+}
